@@ -1,5 +1,5 @@
 const CONFIG = {
-    endpoint: "PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE",
+    endpoint: "https://script.google.com/macros/s/AKfycbydmY52Twj462kuxPHqV9XiODy8jvYPmhODnjunaW9eghqU7eb6f-3OIBiVXqw1OplC/exec",
 
     studyTitle: "Listening & Sensation",
 
