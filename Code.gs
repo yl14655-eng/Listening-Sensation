@@ -288,6 +288,19 @@ function getResponseSheet() {
 // JSON RESPONSE
 // ----------------------------
 
+function testConnection() {
+    const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+
+    if (!spreadsheet) {
+        throw new Error("No spreadsheet is connected.");
+    }
+
+    const sheet = getResponseSheet();
+
+    console.log("Connected to: " + spreadsheet.getName());
+    console.log("Response sheet: " + sheet.getName());
+}
+
 function jsonResponse(data) {
     return ContentService
         .createTextOutput(JSON.stringify(data))
