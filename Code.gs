@@ -178,8 +178,8 @@ function validateData(data) {
     if (![
         "Female",
         "Male",
-        "Intersex",
-        "Prefer not to say"
+        "Nonbinary",
+        "Others"
     ].includes(d.sex)) {
         throw new Error("Invalid sex");
     }
