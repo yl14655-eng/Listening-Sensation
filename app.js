@@ -569,8 +569,8 @@ function renderDemographics() {
             ${radioOptions("sex", [
                 "Female",
                 "Male",
-                "Intersex",
-                "Prefer not to say"
+                "Nonbinary",
+                "Others"
             ], d.sex)}
         </div>
 
