@@ -63,7 +63,7 @@ const translations = {
         participantIntro:
             "Please answer a few questions before beginning the listening study.",
         age: "1. What is your age range?",
-        sex: "2. What is your sex?",
+        sex: "2. What is your gender?",
         pets: "3. Do you currently have any pets?",
         wantsPets: "4. Would you like to have pets?",
         consent:
